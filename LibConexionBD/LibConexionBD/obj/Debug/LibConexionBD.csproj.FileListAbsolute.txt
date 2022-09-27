@@ -1,0 +1,9 @@
+C:\Users\SENA\Desktop\LIBRERIAS\LibConexionBD\LibConexionBD\bin\Debug\LibConexionBD.dll
+C:\Users\SENA\Desktop\LIBRERIAS\LibConexionBD\LibConexionBD\bin\Debug\LibConexionBD.pdb
+C:\Users\SENA\Desktop\LIBRERIAS\LibConexionBD\LibConexionBD\bin\Debug\LibParametro.dll
+C:\Users\SENA\Desktop\LIBRERIAS\LibConexionBD\LibConexionBD\bin\Debug\LibParametro.pdb
+C:\Users\SENA\Desktop\LIBRERIAS\LibConexionBD\LibConexionBD\obj\Debug\LibConexionBD.csproj.AssemblyReference.cache
+C:\Users\SENA\Desktop\LIBRERIAS\LibConexionBD\LibConexionBD\obj\Debug\LibConexionBD.csproj.CoreCompileInputs.cache
+C:\Users\SENA\Desktop\LIBRERIAS\LibConexionBD\LibConexionBD\obj\Debug\LibConexionBD.csproj.CopyComplete
+C:\Users\SENA\Desktop\LIBRERIAS\LibConexionBD\LibConexionBD\obj\Debug\LibConexionBD.dll
+C:\Users\SENA\Desktop\LIBRERIAS\LibConexionBD\LibConexionBD\obj\Debug\LibConexionBD.pdb
