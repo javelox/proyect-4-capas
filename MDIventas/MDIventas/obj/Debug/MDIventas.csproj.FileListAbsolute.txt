@@ -51,3 +51,5 @@ C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIv
 C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\obj\Debug\MDIventas.pdb
 C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\bin\Debug\LibLNvendedor.dll
 C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\bin\Debug\LibLNvendedor.pdb
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\bin\Debug\LNventascarolina.dll
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\bin\Debug\LNventascarolina.pdb

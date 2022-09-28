@@ -47,7 +47,7 @@ namespace LibLNvendedor
         public bool grabarVendedor()
         {
             ClsConexion ObjV = new ClsConexion();
-            String Sentencia = "EXECUTE USP_InsertarFactura '" + id_vendedor + "', '" + nombre_vendedor + "', '" + apellido_vendedor + "', '" + telefono_vendedor + "','" + correo_electronico + "'," + direccion_vendedor;
+            String Sentencia = "EXECUTE USP_InsertarVendedor '" + id_vendedor + "','" + nombre_vendedor + "','" + apellido_vendedor + "','" + telefono_vendedor + "','" + correo_electronico + "','" + direccion_vendedor + "';";   
             if (!ObjV.EjecutarSentencia(Sentencia, false))
             {
                 error = ObjV.Error;

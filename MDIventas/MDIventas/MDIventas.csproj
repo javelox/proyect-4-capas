@@ -40,6 +40,9 @@
     <Reference Include="LibLNvendedor">
       <HintPath>..\..\LibLNvendedor\LibLNvendedor\bin\Debug\LibLNvendedor.dll</HintPath>
     </Reference>
+    <Reference Include="LNventascarolina">
+      <HintPath>..\..\LNventascarolina\LNventascarolina\bin\Debug\LNventascarolina.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

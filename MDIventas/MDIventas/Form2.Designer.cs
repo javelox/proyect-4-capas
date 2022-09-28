@@ -181,6 +181,7 @@
             this.btnactualizarcliente.TabIndex = 13;
             this.btnactualizarcliente.Text = "Actualizar";
             this.btnactualizarcliente.UseVisualStyleBackColor = true;
+            this.btnactualizarcliente.Click += new System.EventHandler(this.btnactualizarcliente_Click);
             // 
             // btnlistarcliente
             // 
@@ -190,6 +191,7 @@
             this.btnlistarcliente.TabIndex = 14;
             this.btnlistarcliente.Text = "Listar";
             this.btnlistarcliente.UseVisualStyleBackColor = true;
+            this.btnlistarcliente.Click += new System.EventHandler(this.btnlistarcliente_Click);
             // 
             // btnconsultarcliente
             // 
@@ -199,6 +201,7 @@
             this.btnconsultarcliente.TabIndex = 15;
             this.btnconsultarcliente.Text = "Consultar";
             this.btnconsultarcliente.UseVisualStyleBackColor = true;
+            this.btnconsultarcliente.Click += new System.EventHandler(this.btnconsultarcliente_Click);
             // 
             // btneliminarcliente
             // 
@@ -208,6 +211,7 @@
             this.btneliminarcliente.TabIndex = 16;
             this.btneliminarcliente.Text = "Eliminar";
             this.btneliminarcliente.UseVisualStyleBackColor = true;
+            this.btneliminarcliente.Click += new System.EventHandler(this.btneliminarcliente_Click);
             // 
             // dgvcliente
             // 
@@ -216,6 +220,7 @@
             this.dgvcliente.Name = "dgvcliente";
             this.dgvcliente.Size = new System.Drawing.Size(725, 332);
             this.dgvcliente.TabIndex = 17;
+            this.dgvcliente.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvcliente_CellContentClick);
             // 
             // Form2
             // 
@@ -243,6 +248,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form2";
             this.Text = "f";
+            this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvcliente)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
