@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Conexion>
-  <Servidor>DESKTOP-T7SUCAK\SQLEXPRESS</Servidor>
+  <Servidor>ARMAPRRQDFSD109\SQLEXPRESS</Servidor>
   <BaseDatos>VENTAS_CAROLINA</BaseDatos>
   <Usuario></Usuario>
   <Password></Password>

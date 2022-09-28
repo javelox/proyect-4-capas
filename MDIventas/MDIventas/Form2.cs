@@ -142,7 +142,7 @@ namespace MDIventas
 
         private void btnconsultarcliente_Click(object sender, EventArgs e)
         {
-            Cliente Obje = new Cliente();
+            Cliente Objc = new Cliente();
             try
             {
                 String id_cliente;
@@ -151,17 +151,17 @@ namespace MDIventas
 
                 //Enviar DATOS a la LOGICA DE NEGOCIO
 
-                Obje.Idcliente = id_cliente;
+                Objc.Idcliente = id_cliente;
 
-                if (!Obje.ConsultarCliente())
+                if (!Objc.ConsultarCliente())
                 {
-                    MessageBox.Show(Obje.Error);
-                    Obje = null;
+                    MessageBox.Show(Objc.Error);
+                    Objc = null;
                     return;
                 }
                 else
                 {
-                    reader = Obje.Reader;
+                    reader = Objc.Reader;
                     if (reader.HasRows)
                     {
                         reader.Read();
@@ -172,6 +172,7 @@ namespace MDIventas
                         txtdireccioncliente.Text = reader.GetString(5);
                         reader.Close();
                     }
+                listar();
                 }
             }
             catch (Exception ex)
