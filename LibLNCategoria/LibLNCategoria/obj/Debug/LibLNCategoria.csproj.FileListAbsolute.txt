@@ -1,0 +1,13 @@
+C:\Users\SENA\Desktop\Nueva carpeta\proyect-4-capas\LibLNCategoria\LibLNCategoria\bin\Debug\LibLNCategoria.dll
+C:\Users\SENA\Desktop\Nueva carpeta\proyect-4-capas\LibLNCategoria\LibLNCategoria\bin\Debug\LibLNCategoria.pdb
+C:\Users\SENA\Desktop\Nueva carpeta\proyect-4-capas\LibLNCategoria\LibLNCategoria\bin\Debug\LibConexionBD.dll
+C:\Users\SENA\Desktop\Nueva carpeta\proyect-4-capas\LibLNCategoria\LibLNCategoria\bin\Debug\LibLlenarGrid.dll
+C:\Users\SENA\Desktop\Nueva carpeta\proyect-4-capas\LibLNCategoria\LibLNCategoria\bin\Debug\LibParametro.dll
+C:\Users\SENA\Desktop\Nueva carpeta\proyect-4-capas\LibLNCategoria\LibLNCategoria\bin\Debug\LibConexionBD.pdb
+C:\Users\SENA\Desktop\Nueva carpeta\proyect-4-capas\LibLNCategoria\LibLNCategoria\bin\Debug\LibLlenarGrid.pdb
+C:\Users\SENA\Desktop\Nueva carpeta\proyect-4-capas\LibLNCategoria\LibLNCategoria\bin\Debug\LibParametro.pdb
+C:\Users\SENA\Desktop\Nueva carpeta\proyect-4-capas\LibLNCategoria\LibLNCategoria\obj\Debug\LibLNCategoria.csprojAssemblyReference.cache
+C:\Users\SENA\Desktop\Nueva carpeta\proyect-4-capas\LibLNCategoria\LibLNCategoria\obj\Debug\LibLNCategoria.csproj.CoreCompileInputs.cache
+C:\Users\SENA\Desktop\Nueva carpeta\proyect-4-capas\LibLNCategoria\LibLNCategoria\obj\Debug\LibLNCategoria.csproj.CopyComplete
+C:\Users\SENA\Desktop\Nueva carpeta\proyect-4-capas\LibLNCategoria\LibLNCategoria\obj\Debug\LibLNCategoria.dll
+C:\Users\SENA\Desktop\Nueva carpeta\proyect-4-capas\LibLNCategoria\LibLNCategoria\obj\Debug\LibLNCategoria.pdb
