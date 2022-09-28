@@ -98,21 +98,21 @@ namespace LNventascarolina
         }
         public bool ConsultarCliente()
         {
-            ClsConexion Objc = new ClsConexion();
-            string sentencia = "EXECUTE USP_ConsultarCliente '" + idcliente + "'";
-            if (!Objc.EjecutarSentencia(sentencia, false))
+            ClsConexion ObjV = new ClsConexion();
+            String Sencentica = "EXECUTE USP_ConsultarCliente '" + idcliente + "'";
+            if (!ObjV.Consultar(Sencentica, false))
             {
-                error = Objc.Error;
-                Objc = null;
+                error = ObjV.Error;
+                ObjV = null;
                 return false;
             }
             else
             {
-                reader = Objc.Reader;
-                Objc = null;
+                reader = ObjV.Reader;
+                ObjV = null;
                 return true;
-
             }
+
         }
         public bool listarCliente(DataGridView objD)
         {

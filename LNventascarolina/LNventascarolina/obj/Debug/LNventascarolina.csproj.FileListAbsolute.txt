@@ -11,3 +11,16 @@ C:\Users\kingn\Desktop\Proyecto jyc\LNventascarolina\LNventascarolina\obj\Debug\
 C:\Users\kingn\Desktop\Proyecto jyc\LNventascarolina\LNventascarolina\obj\Debug\LNventascarolina.csproj.CopyComplete
 C:\Users\kingn\Desktop\Proyecto jyc\LNventascarolina\LNventascarolina\obj\Debug\LNventascarolina.dll
 C:\Users\kingn\Desktop\Proyecto jyc\LNventascarolina\LNventascarolina\obj\Debug\LNventascarolina.pdb
+C:\Users\SENA\Documents\c#\proyect-4-capas\LNventascarolina\LNventascarolina\bin\Debug\LNventascarolina.dll
+C:\Users\SENA\Documents\c#\proyect-4-capas\LNventascarolina\LNventascarolina\bin\Debug\LNventascarolina.pdb
+C:\Users\SENA\Documents\c#\proyect-4-capas\LNventascarolina\LNventascarolina\bin\Debug\LibConexionBD.dll
+C:\Users\SENA\Documents\c#\proyect-4-capas\LNventascarolina\LNventascarolina\bin\Debug\LibLlenarGrid.dll
+C:\Users\SENA\Documents\c#\proyect-4-capas\LNventascarolina\LNventascarolina\bin\Debug\LibParametro.dll
+C:\Users\SENA\Documents\c#\proyect-4-capas\LNventascarolina\LNventascarolina\bin\Debug\LibConexionBD.pdb
+C:\Users\SENA\Documents\c#\proyect-4-capas\LNventascarolina\LNventascarolina\bin\Debug\LibLlenarGrid.pdb
+C:\Users\SENA\Documents\c#\proyect-4-capas\LNventascarolina\LNventascarolina\bin\Debug\LibParametro.pdb
+C:\Users\SENA\Documents\c#\proyect-4-capas\LNventascarolina\LNventascarolina\obj\Debug\LNventascarolina.csproj.AssemblyReference.cache
+C:\Users\SENA\Documents\c#\proyect-4-capas\LNventascarolina\LNventascarolina\obj\Debug\LNventascarolina.csproj.CoreCompileInputs.cache
+C:\Users\SENA\Documents\c#\proyect-4-capas\LNventascarolina\LNventascarolina\obj\Debug\LNventascarolina.csproj.CopyComplete
+C:\Users\SENA\Documents\c#\proyect-4-capas\LNventascarolina\LNventascarolina\obj\Debug\LNventascarolina.dll
+C:\Users\SENA\Documents\c#\proyect-4-capas\LNventascarolina\LNventascarolina\obj\Debug\LNventascarolina.pdb
