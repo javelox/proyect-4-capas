@@ -35,7 +35,7 @@
             this.btnactualizarvendedor = new System.Windows.Forms.Button();
             this.btnguardarvendedor = new System.Windows.Forms.Button();
             this.txtcorreocliente = new System.Windows.Forms.TextBox();
-            this.txttelefonocliente = new System.Windows.Forms.TextBox();
+            this.txttelefonovendedor = new System.Windows.Forms.TextBox();
             this.txtdireccioncliente = new System.Windows.Forms.TextBox();
             this.txtapellidovendedor = new System.Windows.Forms.TextBox();
             this.txtnombrevendedor = new System.Windows.Forms.TextBox();
@@ -66,6 +66,7 @@
             this.btneliminarvendedor.TabIndex = 35;
             this.btneliminarvendedor.Text = "Eliminar";
             this.btneliminarvendedor.UseVisualStyleBackColor = true;
+            this.btneliminarvendedor.Click += new System.EventHandler(this.btneliminarvendedor_Click);
             // 
             // btnconsultarvendedor
             // 
@@ -75,6 +76,7 @@
             this.btnconsultarvendedor.TabIndex = 34;
             this.btnconsultarvendedor.Text = "Consultar";
             this.btnconsultarvendedor.UseVisualStyleBackColor = true;
+            this.btnconsultarvendedor.Click += new System.EventHandler(this.btnconsultarvendedor_Click);
             // 
             // btnlistarvendedor
             // 
@@ -84,6 +86,7 @@
             this.btnlistarvendedor.TabIndex = 33;
             this.btnlistarvendedor.Text = "Listar";
             this.btnlistarvendedor.UseVisualStyleBackColor = true;
+            this.btnlistarvendedor.Click += new System.EventHandler(this.btnlistarvendedor_Click);
             // 
             // btnactualizarvendedor
             // 
@@ -93,6 +96,7 @@
             this.btnactualizarvendedor.TabIndex = 32;
             this.btnactualizarvendedor.Text = "Actualizar";
             this.btnactualizarvendedor.UseVisualStyleBackColor = true;
+            this.btnactualizarvendedor.Click += new System.EventHandler(this.btnactualizarvendedor_Click);
             // 
             // btnguardarvendedor
             // 
@@ -102,6 +106,7 @@
             this.btnguardarvendedor.TabIndex = 31;
             this.btnguardarvendedor.Text = "Guardar";
             this.btnguardarvendedor.UseVisualStyleBackColor = true;
+            this.btnguardarvendedor.Click += new System.EventHandler(this.btnguardarvendedor_Click);
             // 
             // txtcorreocliente
             // 
@@ -110,12 +115,12 @@
             this.txtcorreocliente.Size = new System.Drawing.Size(208, 20);
             this.txtcorreocliente.TabIndex = 30;
             // 
-            // txttelefonocliente
+            // txttelefonovendedor
             // 
-            this.txttelefonocliente.Location = new System.Drawing.Point(459, 243);
-            this.txttelefonocliente.Name = "txttelefonocliente";
-            this.txttelefonocliente.Size = new System.Drawing.Size(208, 20);
-            this.txttelefonocliente.TabIndex = 28;
+            this.txttelefonovendedor.Location = new System.Drawing.Point(459, 243);
+            this.txttelefonovendedor.Name = "txttelefonovendedor";
+            this.txttelefonovendedor.Size = new System.Drawing.Size(208, 20);
+            this.txttelefonovendedor.TabIndex = 28;
             // 
             // txtdireccioncliente
             // 
@@ -228,7 +233,7 @@
             this.Controls.Add(this.btnactualizarvendedor);
             this.Controls.Add(this.btnguardarvendedor);
             this.Controls.Add(this.txtcorreocliente);
-            this.Controls.Add(this.txttelefonocliente);
+            this.Controls.Add(this.txttelefonovendedor);
             this.Controls.Add(this.txtdireccioncliente);
             this.Controls.Add(this.txtapellidovendedor);
             this.Controls.Add(this.txtnombrevendedor);
@@ -242,6 +247,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form3";
             this.Text = "Form3";
+            this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvvendedor)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -257,7 +263,7 @@
         private System.Windows.Forms.Button btnactualizarvendedor;
         private System.Windows.Forms.Button btnguardarvendedor;
         private System.Windows.Forms.TextBox txtcorreocliente;
-        private System.Windows.Forms.TextBox txttelefonocliente;
+        private System.Windows.Forms.TextBox txttelefonovendedor;
         private System.Windows.Forms.TextBox txtdireccioncliente;
         private System.Windows.Forms.TextBox txtapellidovendedor;
         private System.Windows.Forms.TextBox txtnombrevendedor;

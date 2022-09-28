@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Conexion>
-<<<<<<< HEAD
-  <Servidor>DESKTOP-LTE3EM1\SQLEXPRESS</Servidor>
-=======
   <Servidor>DESKTOP-T7SUCAK\SQLEXPRESS</Servidor>
->>>>>>> 02bd4ca114f7c2258f84edc17b07e2fe0b5e24a2
   <BaseDatos>VENTAS_CAROLINA</BaseDatos>
   <Usuario></Usuario>
   <Password></Password>

@@ -25,6 +25,7 @@ E:\Proyecto jyc\MDIventas\MDIventas\obj\Debug\MDIventas.csproj.GenerateResource.
 E:\Proyecto jyc\MDIventas\MDIventas\obj\Debug\MDIventas.csproj.CoreCompileInputs.cache
 E:\Proyecto jyc\MDIventas\MDIventas\obj\Debug\MDIventas.exe
 E:\Proyecto jyc\MDIventas\MDIventas\obj\Debug\MDIventas.pdb
+<<<<<<< HEAD
 C:\Users\kingn\Desktop\Proyecto jyc\MDIventas\MDIventas\bin\Debug\MDIventas.exe.config
 C:\Users\kingn\Desktop\Proyecto jyc\MDIventas\MDIventas\bin\Debug\MDIventas.exe
 C:\Users\kingn\Desktop\Proyecto jyc\MDIventas\MDIventas\bin\Debug\MDIventas.pdb
@@ -49,3 +50,31 @@ C:\Users\kingn\Desktop\Proyecto jyc\MDIventas\MDIventas\obj\Debug\MDIventas.cspr
 C:\Users\kingn\Desktop\Proyecto jyc\MDIventas\MDIventas\obj\Debug\MDIventas.csproj.CopyComplete
 C:\Users\kingn\Desktop\Proyecto jyc\MDIventas\MDIventas\obj\Debug\MDIventas.exe
 C:\Users\kingn\Desktop\Proyecto jyc\MDIventas\MDIventas\obj\Debug\MDIventas.pdb
+=======
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\bin\Debug\MDIventas.exe.config
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\bin\Debug\MDIventas.exe
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\bin\Debug\MDIventas.pdb
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\bin\Debug\LibLNfactura.dll
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\bin\Debug\LibConexionBD.dll
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\bin\Debug\LibLlenarGrid.dll
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\bin\Debug\LibParametro.dll
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\bin\Debug\LibLNfactura.pdb
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\bin\Debug\LibConexionBD.pdb
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\bin\Debug\LibLlenarGrid.pdb
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\bin\Debug\LibParametro.pdb
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\obj\Debug\MDIventas.csproj.AssemblyReference.cache
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\obj\Debug\MDIventas.csproj.SuggestedBindingRedirects.cache
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\obj\Debug\MDIventas.Form1.resources
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\obj\Debug\MDIventas.Form2.resources
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\obj\Debug\MDIventas.Form3.resources
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\obj\Debug\MDIventas.Form4.resources
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\obj\Debug\MDIventas.Form5.resources
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\obj\Debug\MDIventas.Properties.Resources.resources
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\obj\Debug\MDIventas.csproj.GenerateResource.cache
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\obj\Debug\MDIventas.csproj.CoreCompileInputs.cache
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\obj\Debug\MDIventas.csproj.CopyComplete
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\obj\Debug\MDIventas.exe
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\obj\Debug\MDIventas.pdb
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\bin\Debug\LibLNvendedor.dll
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\bin\Debug\LibLNvendedor.pdb
+>>>>>>> 02bd4ca114f7c2258f84edc17b07e2fe0b5e24a2

@@ -76,6 +76,7 @@
             this.btnlistar.TabIndex = 56;
             this.btnlistar.Text = "Listar";
             this.btnlistar.UseVisualStyleBackColor = true;
+            this.btnlistar.Click += new System.EventHandler(this.btnlistar_Click);
             // 
             // btnconsultar
             // 
@@ -85,6 +86,7 @@
             this.btnconsultar.TabIndex = 55;
             this.btnconsultar.Text = "Consultar";
             this.btnconsultar.UseVisualStyleBackColor = true;
+            this.btnconsultar.Click += new System.EventHandler(this.btnconsultar_Click);
             // 
             // btnEnviar
             // 
@@ -94,6 +96,7 @@
             this.btnEnviar.TabIndex = 54;
             this.btnEnviar.Text = "Enviar";
             this.btnEnviar.UseVisualStyleBackColor = true;
+            this.btnEnviar.Click += new System.EventHandler(this.btnEnviar_Click);
             // 
             // label13
             // 
@@ -346,6 +349,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form4";
             this.Text = "Form4";
+            this.Load += new System.EventHandler(this.Form4_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvdatos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

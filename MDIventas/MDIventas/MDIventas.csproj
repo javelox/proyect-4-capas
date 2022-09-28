@@ -33,8 +33,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Reference Include="LNventascarolina">
       <HintPath>..\..\LNventascarolina\LNventascarolina\bin\Debug\LNventascarolina.dll</HintPath>
+=======
+    <Reference Include="LibLNfactura, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\proyecto_final\LibLNfactura\LibLNfactura\bin\Debug\LibLNfactura.dll</HintPath>
+    </Reference>
+    <Reference Include="LibLNvendedor">
+      <HintPath>..\..\LibLNvendedor\LibLNvendedor\bin\Debug\LibLNvendedor.dll</HintPath>
+>>>>>>> 02bd4ca114f7c2258f84edc17b07e2fe0b5e24a2
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
