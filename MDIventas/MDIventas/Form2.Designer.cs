@@ -127,6 +127,7 @@
             this.txtidcliente.Name = "txtidcliente";
             this.txtidcliente.Size = new System.Drawing.Size(208, 20);
             this.txtidcliente.TabIndex = 7;
+            this.txtidcliente.TextChanged += new System.EventHandler(this.txtidcliente_TextChanged);
             // 
             // txtnombrecliente
             // 
@@ -181,6 +182,7 @@
             this.btnactualizarcliente.TabIndex = 13;
             this.btnactualizarcliente.Text = "Actualizar";
             this.btnactualizarcliente.UseVisualStyleBackColor = true;
+            this.btnactualizarcliente.Click += new System.EventHandler(this.btnactualizarcliente_Click);
             // 
             // btnlistarcliente
             // 
@@ -190,6 +192,7 @@
             this.btnlistarcliente.TabIndex = 14;
             this.btnlistarcliente.Text = "Listar";
             this.btnlistarcliente.UseVisualStyleBackColor = true;
+            this.btnlistarcliente.Click += new System.EventHandler(this.btnlistarcliente_Click);
             // 
             // btnconsultarcliente
             // 
@@ -199,6 +202,7 @@
             this.btnconsultarcliente.TabIndex = 15;
             this.btnconsultarcliente.Text = "Consultar";
             this.btnconsultarcliente.UseVisualStyleBackColor = true;
+            this.btnconsultarcliente.Click += new System.EventHandler(this.btnconsultarcliente_Click);
             // 
             // btneliminarcliente
             // 
@@ -208,6 +212,7 @@
             this.btneliminarcliente.TabIndex = 16;
             this.btneliminarcliente.Text = "Eliminar";
             this.btneliminarcliente.UseVisualStyleBackColor = true;
+            this.btneliminarcliente.Click += new System.EventHandler(this.btneliminarcliente_Click);
             // 
             // dgvcliente
             // 
