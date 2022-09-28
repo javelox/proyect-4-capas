@@ -49,3 +49,5 @@ C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIv
 C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\obj\Debug\MDIventas.csproj.CopyComplete
 C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\obj\Debug\MDIventas.exe
 C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\obj\Debug\MDIventas.pdb
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\bin\Debug\LibLNvendedor.dll
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\MDIventas\MDIventas\bin\Debug\LibLNvendedor.pdb

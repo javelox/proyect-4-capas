@@ -1,0 +1,13 @@
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\LibLNvendedor\LibLNvendedor\obj\Debug\LibLNvendedor.csproj.AssemblyReference.cache
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\LibLNvendedor\LibLNvendedor\obj\Debug\LibLNvendedor.csproj.CoreCompileInputs.cache
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\LibLNvendedor\LibLNvendedor\bin\Debug\LibLNvendedor.dll
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\LibLNvendedor\LibLNvendedor\bin\Debug\LibLNvendedor.pdb
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\LibLNvendedor\LibLNvendedor\bin\Debug\LibConexionBD.dll
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\LibLNvendedor\LibLNvendedor\bin\Debug\LibLlenarGrid.dll
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\LibLNvendedor\LibLNvendedor\bin\Debug\LibParametro.dll
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\LibLNvendedor\LibLNvendedor\bin\Debug\LibConexionBD.pdb
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\LibLNvendedor\LibLNvendedor\bin\Debug\LibLlenarGrid.pdb
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\LibLNvendedor\LibLNvendedor\bin\Debug\LibParametro.pdb
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\LibLNvendedor\LibLNvendedor\obj\Debug\LibLNvendedor.csproj.CopyComplete
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\LibLNvendedor\LibLNvendedor\obj\Debug\LibLNvendedor.dll
+C:\Users\yulia\OneDrive\Escritorio\proyecto-final\proyect-4-capas\LibLNvendedor\LibLNvendedor\obj\Debug\LibLNvendedor.pdb
