@@ -23,11 +23,18 @@ namespace LibLNCategoria
         public string Id_categoria { get => id_categoria; set => id_categoria = value; }
         public string Nombre_categoria { get => nombre_categoria; set => nombre_categoria = value; }
         public string Error { get => error; set => error = value; }
+<<<<<<< HEAD
         public SqlDataReader Reader { get => reader; set => reader = value; }
         #endregion
 
         #region metodos publicos
         public Categoria()
+=======
+        #endregion
+
+        #region metodos publicos
+        public Categoria(string error)
+>>>>>>> 1dc2abc08043b56257adfc7ed3d78933b27df8f8
         {
             id_categoria = "";
             nombre_categoria = "";
@@ -100,7 +107,11 @@ namespace LibLNCategoria
             }
             else
             {
+<<<<<<< HEAD
                 Reader = objC.Reader;
+=======
+                reader = objC.Reader;
+>>>>>>> 1dc2abc08043b56257adfc7ed3d78933b27df8f8
                 objC = null;
                 return true;
             }

@@ -11,6 +11,7 @@ C:\Users\SENA\Desktop\Nueva carpeta\proyect-4-capas\LibLNCategoria\LibLNCategori
 C:\Users\SENA\Desktop\Nueva carpeta\proyect-4-capas\LibLNCategoria\LibLNCategoria\obj\Debug\LibLNCategoria.csproj.CopyComplete
 C:\Users\SENA\Desktop\Nueva carpeta\proyect-4-capas\LibLNCategoria\LibLNCategoria\obj\Debug\LibLNCategoria.dll
 C:\Users\SENA\Desktop\Nueva carpeta\proyect-4-capas\LibLNCategoria\LibLNCategoria\obj\Debug\LibLNCategoria.pdb
+<<<<<<< HEAD
 C:\Users\kingn\Desktop\proyect-4-capas\LibLNCategoria\LibLNCategoria\bin\Debug\LibLNCategoria.dll
 C:\Users\kingn\Desktop\proyect-4-capas\LibLNCategoria\LibLNCategoria\bin\Debug\LibLNCategoria.pdb
 C:\Users\kingn\Desktop\proyect-4-capas\LibLNCategoria\LibLNCategoria\bin\Debug\LibConexionBD.dll
@@ -37,3 +38,5 @@ C:\Users\SENA\Documents\c#\proyect-4-capas\LibLNCategoria\LibLNCategoria\obj\Deb
 C:\Users\SENA\Documents\c#\proyect-4-capas\LibLNCategoria\LibLNCategoria\obj\Debug\LibLNCategoria.csproj.CopyComplete
 C:\Users\SENA\Documents\c#\proyect-4-capas\LibLNCategoria\LibLNCategoria\obj\Debug\LibLNCategoria.dll
 C:\Users\SENA\Documents\c#\proyect-4-capas\LibLNCategoria\LibLNCategoria\obj\Debug\LibLNCategoria.pdb
+=======
+>>>>>>> 1dc2abc08043b56257adfc7ed3d78933b27df8f8
