@@ -15,8 +15,9 @@ namespace LibLNproducto
         #region atributos 
         private string id_producto;
         private string nombre_producto;
-        private string valor_producto;
-        private string cantidad_bodega;
+        private double valor_producto;
+        private int cantidad_bodega;
+        private string id_categoria;
         private string error;
         private SqlDataReader reader;
         #endregion
@@ -24,10 +25,11 @@ namespace LibLNproducto
         #region propiedades
         public string Id_producto { get => id_producto; set => id_producto = value; }
         public string Nombre_producto { get => nombre_producto; set => nombre_producto = value; }
-        public string Valor_producto { get => valor_producto; set => valor_producto = value; }
-        public string Cantidad_bodega { get => cantidad_bodega; set => cantidad_bodega = value; }
+        public double Valor_producto { get => valor_producto; set => valor_producto = value; }
+        public int Cantidad_bodega { get => cantidad_bodega; set => cantidad_bodega = value; }
         public string Error { get => error; set => error = value; }
         public SqlDataReader Reader { get => reader; set => reader = value; }
+        public string Id_categoria { get => id_categoria; set => id_categoria = value; }
         #endregion
 
         #region metodos publicos 
@@ -35,15 +37,16 @@ namespace LibLNproducto
        {
             id_producto = "";
             nombre_producto = "";
-            valor_producto = "";
-            cantidad_bodega = "";
+            valor_producto = 0;
+            cantidad_bodega = 0;
+            id_categoria = "";
             error = "";
         }
 
         public bool grabarproducto()
         {
             ClsConexion objP = new ClsConexion();
-            String Sentencia = "EXECUTE USP_InsertarProducto '" + id_producto + "','" + nombre_producto + "','" + valor_producto + "','" + cantidad_bodega + "';";
+            String Sentencia = "EXECUTE USP_InsertarProducto '" + id_producto + "','" + nombre_producto + "','" + valor_producto+ "','" + cantidad_bodega+ "','" + id_categoria + "'";
             if (!objP.EjecutarSentencia(Sentencia, false))
             {
                 error = objP.Error;
@@ -61,7 +64,7 @@ namespace LibLNproducto
         public bool actualizarproducto()
         {
             ClsConexion objP = new ClsConexion();
-            String Sentencia = "EXECUTE USP_Actualizar_Producto '" + id_producto + "','" + nombre_producto + "','" + valor_producto + "','" + cantidad_bodega + "';";
+            String Sentencia = "EXECUTE USP_ActualizarProducto '" + id_producto + "','" + nombre_producto + "','" + valor_producto + "','" + cantidad_bodega + "';";
             if (!objP.EjecutarSentencia(Sentencia, false))
             {
                 error = objP.Error;
@@ -78,18 +81,18 @@ namespace LibLNproducto
 
         public bool consultarproducto()
         {
-            ClsConexion objP = new ClsConexion();
-            String Sentencia = "EXECUTE USP_Consultar_Producto '" + id_producto +  "';";
-            if (!objP.EjecutarSentencia(Sentencia, false))
+            ClsConexion ObjP = new ClsConexion();
+            String Sencentica = "EXECUTE USP_ConsultarProducto '" + id_producto + "'";
+            if (!ObjP.Consultar(Sencentica, false))
             {
-                error = objP.Error;
-                objP = null;
+                error = ObjP.Error;
+                ObjP = null;
                 return false;
             }
             else
             {
-                reader = objP.Reader;
-                objP = null;
+                reader = ObjP.Reader;
+                ObjP = null;
                 return true;
             }
         }
@@ -97,7 +100,7 @@ namespace LibLNproducto
         public bool eliminarproducto()
         {
             ClsConexion objP = new ClsConexion();
-            String Sentencia = "EXECUTE USP_Eliminar_Producto '" + id_producto +"';";
+            String Sentencia = "EXECUTE USP_EliminarProducto '" + id_producto +"';";
             if (!objP.EjecutarSentencia(Sentencia, false))
             {
                 error = objP.Error;

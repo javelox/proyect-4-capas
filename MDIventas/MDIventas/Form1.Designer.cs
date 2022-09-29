@@ -64,7 +64,7 @@
             // 
             this.clienteToolStripMenuItem.Name = "clienteToolStripMenuItem";
             this.clienteToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
             this.clienteToolStripMenuItem.Text = "Cliente";
             this.clienteToolStripMenuItem.Click += new System.EventHandler(this.clienteToolStripMenuItem_Click);
             // 
@@ -72,7 +72,7 @@
             // 
             this.vendedorToolStripMenuItem.Name = "vendedorToolStripMenuItem";
             this.vendedorToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
-            this.vendedorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.vendedorToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
             this.vendedorToolStripMenuItem.Text = "Vendedor";
             this.vendedorToolStripMenuItem.Click += new System.EventHandler(this.vendedorToolStripMenuItem_Click);
             // 
@@ -109,6 +109,7 @@
             this.categoriaProductosToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F1;
             this.categoriaProductosToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
             this.categoriaProductosToolStripMenuItem.Text = "Categoria Productos";
+            this.categoriaProductosToolStripMenuItem.Click += new System.EventHandler(this.categoriaProductosToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -119,7 +120,8 @@
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Aplicacion";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

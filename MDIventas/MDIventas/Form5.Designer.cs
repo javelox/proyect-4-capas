@@ -64,6 +64,7 @@
             this.btneliminarproducto.TabIndex = 54;
             this.btneliminarproducto.Text = "Eliminar";
             this.btneliminarproducto.UseVisualStyleBackColor = true;
+            this.btneliminarproducto.Click += new System.EventHandler(this.btneliminarproducto_Click);
             // 
             // btnconsultarproducto
             // 
@@ -73,6 +74,7 @@
             this.btnconsultarproducto.TabIndex = 53;
             this.btnconsultarproducto.Text = "Consultar";
             this.btnconsultarproducto.UseVisualStyleBackColor = true;
+            this.btnconsultarproducto.Click += new System.EventHandler(this.btnconsultarproducto_Click);
             // 
             // btnlistarproducto
             // 
@@ -82,6 +84,7 @@
             this.btnlistarproducto.TabIndex = 52;
             this.btnlistarproducto.Text = "Listar";
             this.btnlistarproducto.UseVisualStyleBackColor = true;
+            this.btnlistarproducto.Click += new System.EventHandler(this.btnlistarproducto_Click);
             // 
             // btnactualizarproducto
             // 
@@ -91,6 +94,7 @@
             this.btnactualizarproducto.TabIndex = 51;
             this.btnactualizarproducto.Text = "Actualizar";
             this.btnactualizarproducto.UseVisualStyleBackColor = true;
+            this.btnactualizarproducto.Click += new System.EventHandler(this.btnactualizarproducto_Click);
             // 
             // btnguardarproducto
             // 
@@ -100,6 +104,7 @@
             this.btnguardarproducto.TabIndex = 50;
             this.btnguardarproducto.Text = "Guardar";
             this.btnguardarproducto.UseVisualStyleBackColor = true;
+            this.btnguardarproducto.Click += new System.EventHandler(this.btnguardarproducto_Click);
             // 
             // txtidcategoriaproducto
             // 
@@ -220,7 +225,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form5";
-            this.Text = "Form5";
+            this.Text = "Productos";
+            this.Load += new System.EventHandler(this.Form5_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvproducto)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -80,3 +80,8 @@ C:\Users\SENA\Documents\c#\proyect-4-capas\MDIventas\MDIventas\obj\Debug\MDIvent
 C:\Users\SENA\Documents\c#\proyect-4-capas\MDIventas\MDIventas\obj\Debug\MDIventas.csproj.CopyComplete
 C:\Users\SENA\Documents\c#\proyect-4-capas\MDIventas\MDIventas\obj\Debug\MDIventas.exe
 C:\Users\SENA\Documents\c#\proyect-4-capas\MDIventas\MDIventas\obj\Debug\MDIventas.pdb
+C:\Users\SENA\Documents\c#\proyect-4-capas\MDIventas\MDIventas\obj\Debug\MDIventas.Form6.resources
+C:\Users\SENA\Documents\c#\proyect-4-capas\MDIventas\MDIventas\bin\Debug\LibLNproducto.dll
+C:\Users\SENA\Documents\c#\proyect-4-capas\MDIventas\MDIventas\bin\Debug\LibLNproducto.pdb
+C:\Users\SENA\Documents\c#\proyect-4-capas\MDIventas\MDIventas\bin\Debug\LibLNCategoria.dll
+C:\Users\SENA\Documents\c#\proyect-4-capas\MDIventas\MDIventas\bin\Debug\LibLNCategoria.pdb

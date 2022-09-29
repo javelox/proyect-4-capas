@@ -18,15 +18,25 @@ namespace MDIventas
         {
             InitializeComponent();
         }
+        private void txtcantidad_TextChanged(object sender, EventArgs e)
+        {
 
+
+
+
+
+
+        }
         private void btnEnviar_Click(object sender, EventArgs e)
         {
             Factura Objf = new Factura();
             try
             {
                 String id_factura, fecha, id_cliente, id_vendedor, id_producto;
-                double subtotal, iva, total, valor_total;
+                double subtotal, iva, total, valor_total,valor_producto;
                 int cantidad_producto;
+
+
 
                 id_factura = txtnro.Text;
                 fecha = txtfecha.Text;
@@ -37,7 +47,19 @@ namespace MDIventas
                 iva = Convert.ToDouble(txtiva.Text);
                 total = Convert.ToDouble(txttotal.Text);
                 valor_total = Convert.ToDouble(txtvalortotal.Text);
+                valor_producto = Convert.ToDouble(txtvalor.Text);
                 cantidad_producto = Convert.ToInt32(txtcantidad.Text);
+
+                valor_producto = Convert.ToDouble(txtvalor.Text);
+                cantidad_producto = Convert.ToInt32(txtcantidad.Text);
+                valor_total = cantidad_producto * valor_producto;
+                iva = valor_total * 0.19;
+                total = iva + valor_total;
+
+                txtvalortotal.Text = (valor_total.ToString());
+                txtsubtotal.Text = valor_total.ToString();
+                txtiva.Text = iva.ToString();
+                txttotal.Text = total.ToString();
 
                 //Enviar DATOS a la LOGICA DE NEGOCIO
 
@@ -50,6 +72,7 @@ namespace MDIventas
                 Objf.Iva = iva;
                 Objf.Total = total;
                 Objf.Valor_total = valor_total;
+                Objf.Valor_producto = valor_producto;
                 Objf.Cantidad_producto = cantidad_producto;
 
                 if (!Objf.grabarFactura())
@@ -108,7 +131,7 @@ namespace MDIventas
                         txtcantidad.Text = reader.GetInt32(9).ToString();
                         txtvalortotal.Text = reader.GetFloat(10).ToString();
                         txtproducto.Text = reader.GetString(12);
-                        txtvalor.Text = reader.GetFloat(13).ToString();
+                        txtvalor.Text = reader.GetDouble(13).ToString();
                         reader.Close();
                     }
                 }
@@ -128,7 +151,7 @@ namespace MDIventas
         private void listar()
         {
             Factura Obje = new Factura();
-            if (!Obje.listarFactura(dgvdatos))
+            if (!Obje.listarFacture(dgvdatos))
             {
                 return;
             }
@@ -137,6 +160,49 @@ namespace MDIventas
         private void Form4_Load(object sender, EventArgs e)
         {
             listar();
+            txtfecha.Text = DateTime.Now.ToString("dd/MM/yyyy");
         }
+
+        private void txtfecha_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtcantidad_KeyDown(object sender, KeyEventArgs e)
+        {
+        //    Factura Objf = new Factura();
+
+        //    double valor_producto;
+        //    double valor_total;
+        //    int cantidad_producto;
+
+
+        //    valor_producto = Convert.ToDouble(txtvalor.Text);
+        //    cantidad_producto = Convert.ToInt32(txtcantidad.Text);
+        //    valor_total = Convert.ToDouble(txtvalortotal.Text);
+
+
+        //    Objf.Valor_producto = valor_producto;
+        //    Objf.Cantidad_producto = cantidad_producto;
+        //    Objf.Valor_total = valor_total;
+
+        //    try
+        //    {
+
+
+        //        if (Objf.calcular() &&(e.KeyData == Keys.Enter))
+        //        {
+        //            txtvalor.Text = Objf.Valor_total.ToString();
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        MessageBox.Show(ex.Message);
+        //    }
+        }
+
+
+
+
     }
 }

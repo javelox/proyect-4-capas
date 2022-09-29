@@ -63,9 +63,9 @@
             // dgvdatos
             // 
             this.dgvdatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvdatos.Location = new System.Drawing.Point(111, 690);
+            this.dgvdatos.Location = new System.Drawing.Point(64, 690);
             this.dgvdatos.Name = "dgvdatos";
-            this.dgvdatos.Size = new System.Drawing.Size(576, 150);
+            this.dgvdatos.Size = new System.Drawing.Size(676, 150);
             this.dgvdatos.TabIndex = 57;
             // 
             // btnlistar
@@ -248,10 +248,13 @@
             // 
             // txtcantidad
             // 
+            this.txtcantidad.CausesValidation = false;
             this.txtcantidad.Location = new System.Drawing.Point(489, 340);
             this.txtcantidad.Name = "txtcantidad";
             this.txtcantidad.Size = new System.Drawing.Size(100, 20);
             this.txtcantidad.TabIndex = 37;
+            this.txtcantidad.TextChanged += new System.EventHandler(this.txtcantidad_TextChanged);
+            this.txtcantidad.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtcantidad_KeyDown);
             // 
             // txtvalor
             // 
@@ -294,6 +297,7 @@
             this.txtfecha.Name = "txtfecha";
             this.txtfecha.Size = new System.Drawing.Size(100, 20);
             this.txtfecha.TabIndex = 31;
+            this.txtfecha.TextChanged += new System.EventHandler(this.txtfecha_TextChanged);
             // 
             // txtnro
             // 
@@ -348,7 +352,7 @@
             this.Controls.Add(this.txtnro);
             this.Controls.Add(this.label1);
             this.Name = "Form4";
-            this.Text = "Form4";
+            this.Text = "Facturar";
             this.Load += new System.EventHandler(this.Form4_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvdatos)).EndInit();
             this.ResumeLayout(false);

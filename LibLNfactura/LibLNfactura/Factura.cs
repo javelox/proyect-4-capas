@@ -99,7 +99,7 @@ namespace LibLNfactura
             }
 
         }
-        public bool listarFactura(DataGridView objD)
+        public bool listarFacture(DataGridView objD)
         {
             ClsLlenarGrid ObjG = new ClsLlenarGrid();
             ObjG.NombreTabla = "DatosFactura";
@@ -116,6 +116,24 @@ namespace LibLNfactura
                 return true;
             }
         }
+
+
+
+        public bool calcular()
+        {
+            try
+            {
+                valor_total = cantidad_producto * valor_producto;
+                return true;
+            }
+            catch (Exception ex)
+            {
+                error = ex.Message;
+                return false;
+            }
+        }
+
+
         #endregion
         #region Metodos Privados
         #endregion

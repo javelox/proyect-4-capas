@@ -59,5 +59,19 @@ namespace MDIventas
 
             Nuevo.Show();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void categoriaProductosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form6 Nuevo = new Form6();
+
+            Nuevo.MdiParent = this;
+
+            Nuevo.Show();
+        }
     }
 }
